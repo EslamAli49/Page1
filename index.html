@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار الوجهة السياحية - إسلام علي</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>اختبار: إيه وجهتك السياحية المفضلة؟</h1>
+        <form id="myForm">
+            <!-- سؤال أول -->
+            <div class="question">
+                <p>١- إيه المناظر اللي بتحبها أكتر؟</p>
+                <label><input type="radio" name="s1" value="1"> بحر وشواطئ</label><br>
+                <label><input type="radio" name="s1" value="2"> جبال وطبيعة</label><br>
+                <label><input type="radio" name="s1" value="3"> صحرا ومغامرات</label>
+            </div>
+
+            <!-- سؤال تاني -->
+            <div class="question">
+                <p>٢- بتحب تقضي إجازتك إزاي؟</p>
+                <label><input type="radio" name="s2" value="1"> استرخاء وهدوء</label><br>
+                <label><input type="radio" name="s2" value="2"> مغامرات وتحديات</label><br>
+                <label><input type="radio" name="s2" value="3"> تعرف على ثقافات جديدة</label>
+            </div>
+
+            <!-- سؤال تالت -->
+            <div class="question">
+                <p>٣- بتحب تسافر مع مين؟</p>
+                <label><input type="radio" name="s3" value="1"> لوحدي</label><br>
+                <label><input type="radio" name="s3" value="2"> مع صحابي</label><br>
+                <label><input type="radio" name="s3" value="3"> مع أهلي</label>
+            </div>
+
+            <!-- سؤال رابع -->
+            <div class="question">
+                <p>٤- بتحب الجو إزاي؟</p>
+                <label><input type="radio" name="s4" value="1"> حر وصيف</label><br>
+                <label><input type="radio" name="s4" value="2"> برد وشتا</label><br>
+                <label><input type="radio" name="s4" value="3"> معتدل</label>
+            </div>
+
+            <!-- سؤال خامس -->
+            <div class="question">
+                <p>٥- بتحب الرحلات البسيطة ولا الفخمة؟</p>
+                <label><input type="radio" name="s5" value="1"> بسيطة وشعبية</label><br>
+                <label><input type="radio" name="s5" value="2"> فخمة ومريحة</label><br>
+                <label><input type="radio" name="s5" value="3"> الاتنين</label>
+            </div>
+
+            <!-- سؤال سادس -->
+            <div class="question">
+                <p>٦- إجازتك المثالية كام يوم؟</p>
+                <label><input type="radio" name="s6" value="1"> أقل من أسبوع</label><br>
+                <label><input type="radio" name="s6" value="2"> أسبوع بالظبط</label><br>
+                <label><input type="radio" name="s6" value="3"> أكتر من أسبوع</label>
+            </div>
+
+            <!-- سؤال سابع -->
+            <div class="question">
+                <p>٧- بتحب تسافر بإيه؟</p>
+                <label><input type="radio" name="s7" value="1"> طيارة</label><br>
+                <label><input type="radio" name="s7" value="2"> عربية</label><br>
+                <label><input type="radio" name="s7" value="3"> أي حاجة</label>
+            </div>
+
+            <!-- سؤال تامن -->
+            <div class="question">
+                <p>٨- بتحب تخطط لرحلتك ولا تسافر على طول؟</p>
+                <label><input type="radio" name="s8" value="1"> بخطط كويس</label><br>
+                <label><input type="radio" name="s8" value="2"> بحب أسافر على طول</label><br>
+                <label><input type="radio" name="s8" value="3"> الاتنين</label>
+            </div>
+
+            <!-- سؤال تاسع -->
+            <div class="question">
+                <p>٩- بتحب تعمل إيه وإنت مسافر؟</p>
+                <label><input type="radio" name="s9" value="1"> أصور كل حاجة</label><br>
+                <label><input type="radio" name="s9" value="2"> ألعب رياضات بحرية</label><br>
+                <label><input type="radio" name="s9" value="3"> أشتري حاجات جديدة</label>
+            </div>
+
+            <!-- سؤال عاشر -->
+            <div class="question">
+                <p>١٠- إيه اللي بيجذبك في المكان اللي بتسافرله؟</p>
+                <label><input type="radio" name="s10" value="1"> الطبيعة الخضرا</label><br>
+                <label><input type="radio" name="s10" value="2"> التاريخ والآثار</label><br>
+                <label><input type="radio" name="s10" value="3"> الأكل المحلي</label>
+            </div>
+
+            <!-- سؤال حادي عشر -->
+            <div class="question">
+                <p>١١- بتحب تسافر جوا مصر ولا برا؟</p>
+                <label><input type="radio" name="s11" value="1"> جوا مصر</label><br>
+                <label><input type="radio" name="s11" value="2"> برا مصر</label><br>
+                <label><input type="radio" name="s11" value="3"> الاتنين</label>
+            </div>
+
+            <button type="button" onclick="hasabNatiga()">شوف وجهتك دلوقتي!</button>
+        </form>
+
+        <div id="natiga" class="natiga"></div>
+    </div>
+
+    <!-- كتبته إسلام علي -->
+    <script src="script.js"></script>
+</body>
+</html>
